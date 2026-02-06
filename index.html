@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Mi Amor ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>Para ti, mi amor 💕</h1>
+    <p id="message">Toca el botón para comenzar 💖</p>
+
+    <button onclick="nextMessage()">Siguiente 💘</button>
+
+    <div id="counter" class="hidden"></div>
+
+    <button id="secretBtn" class="hidden" onclick="showSecret()">😏 Mensaje secreto</button>
+</div>
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+<script src="script.js"></script>
+</body>
+</html>
